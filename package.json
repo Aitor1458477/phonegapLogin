@@ -23,7 +23,8 @@
   "cordova": {
     "plugins": {
       "cordova-plugin-whitelist": {},
-      "cordova-plugin-fcm": {}
+      "cordova-plugin-fcm": {},
+       "cordova-plugin-fcm-config": {}
     },
     "platforms": []
   }
