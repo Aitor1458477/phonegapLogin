@@ -168,7 +168,7 @@ class ProjectBuilder {
         // For why we do this mapping: https://issues.apache.org/jira/browse/CB-8390
         var SYSTEM_LIBRARY_MAPPINGS = [
             [/^\/?extras\/android\/support\/(.*)$/, 'com.android.support:support-$1:+'],
-            [/^\/?google\/google_play_services\/libproject\/google-play-services_lib\/?$/, 'com.google.android.gms:play-services:+']
+            [/^\/?google\/google_play_services\/libproject\/google-play-services_lib\/?$/, 'com.google.android.gms:play-services:1.0']
         ];
 
         propertiesObj.systemLibs.forEach(function (p) {
