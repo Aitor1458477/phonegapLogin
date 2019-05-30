@@ -7,12 +7,12 @@
   },
   "client": [
     {
-      "client_info": {
+      "client_info":[ {
         "mobilesdk_app_id": "1:935375552074:android:215642ed9f5b53a2",
         "android_client_info": {
           "package_name": "sie.phonegap.fcm"
         }
-      },
+      }],
       "oauth_client": [
         {
           "client_id": "935375552074-6vt8q75rhal0mihbqr53c2guaoidersi.apps.googleusercontent.com",
